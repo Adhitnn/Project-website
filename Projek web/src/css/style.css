@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/verdana');
+@import url('https://fonts.cdnfonts.com/css/verdana?styles=42829');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
 body{
@@ -18,17 +18,21 @@ body{
     align-items: center ;
     justify-content: space-between;
 }
+
 .nav-btn{
     float: right;
     position: relative;
 }
+
 .nav-btn ul{
     font-family: 'Poppins', sans-serif;
 }
+
 .nav-btn li{
     display: inline;
     list-style: none;
 }
+
 .nav-btn li a{
     font-weight: 500;
     margin-left: 69px;
@@ -36,16 +40,13 @@ body{
     color: black;
     text-decoration: none;
 }
+
 .nav-btn li a:hover{
     color: #3c84ab;
     border-bottom: 3px solid #3c84ab;
 }
 
 /* home section */
-
-.home-content{
-    
-}
 
 .home-content .right-content img{
     float: right;
@@ -54,12 +55,15 @@ body{
     width: 35%;
 }
 
+.left-content{
+    margin-left: 40px;
+}
+
 .left-content h1{
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
     font-size: 300%;
     width: 53%;
-    margin-left: 40px;
     padding-top: 5%;
 }
 .left-content h1 span{
@@ -70,6 +74,140 @@ body{
     font-family: 'Verdana',sans-serif;
     font-weight: 400;
     font-size: 150%;
-    width: 37%;
-    margin-left: 40px;
+    width: 53%;
+}
+
+.inp-1{
+    font-family: 'Verdana', sans-serif;
+    padding: 11px;
+    font-size: 20px;
+    width: 421px;
+    border-radius: 5px;
+    border: 3px solid #497FCE;
+    margin-top: 2%;
+    outline: none;
+}
+
+.inp-1:placeholder-shown{
+    font-family: 'Verdana italic', sans-serif;
+    font-style: italic;
+}
+
+.find-btn{
+    padding: 11px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 3px solid #497FCE;
+    background-color: white;
+    cursor: pointer;
+}
+
+.find-btn:hover{
+    background-color: #e3e3e3;
+}
+
+.find-btn .material-symbols-outlined{
+    font-size: 19px;
+}
+
+.card{
+    font-family: 'Verdana', sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    overflow: hidden;
+}
+
+.card-1{
+    overflow: hidden;
+    border: 3px solid #497FCE;
+    border-radius: 15px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card-1:hover{
+    background-color: #e3e3e3;
+}
+
+.card-1 img{
+    padding-top: 8%;
+    width: 100px;
+    height: 100px;
+}
+
+.card-2{
+    overflow: hidden;
+    border: 3px solid #497FCE;
+    border-radius: 15px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card-2:hover{
+    background-color: #e3e3e3;
+}
+
+.card-2 img{
+    padding-top: 8%;
+    width: 100px;
+    height: 100px;
+}
+
+.card-3{
+    overflow: hidden;
+    border: 3px solid #497FCE;
+    border-radius: 15px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card-3:hover{
+    background-color: #e3e3e3;
+}
+
+.card-3 img{
+    padding-top: 8%;
+    width: 100px;
+    height: 100px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.text span{
+    font-weight: 600;
+    font-size: 60px;
+    color: blue;
+}
+
+.text-1{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.text-2{
+    text-align: center;
+}
+
+.text-3{
+    text-align: center;
+    margin-right: 100px;
 }
